@@ -33,9 +33,8 @@ Consider, a single dimensional array of strings, in which each element of the ar
 
 In this multi-part programming challenge, you are required to do the following:
 
-## Part 1
 
-### Task 1 	
+## Task 1 	
 Write a program to interactively accept input from the user on popular routes covering 15 cities. Store the route 
 information for each route in an array called `routes[]`. Each element of the array will be a string as 
 described in the example earlier. 
@@ -67,12 +66,12 @@ SNo.		From		To		Distance in Kms		Travel Time	Typical Airfare
 15.		Los Angeles	Tokyo		8773			11:15		USD 520
 ```
 
-## Part 2
+## Task 2:
 	
 Now that you can accept route information from the user and store it in an array, you need to be able to 
 use this information in helping the users plan their trips. Write independent functions to respond to the 
 following user queries:
-### Task 2:
+
 	Given the name of a city, show a list of other cities to which it has direct flights. If you do not have 
     any information about the city mentioned by the user, give an appropriate message. For example:
     “We are sorry. At this point in time we do not have any information on flights in the specified route”
@@ -87,7 +86,8 @@ SNo.		From		To		Distance in Kms		Travel Time	Typical Airfare
 
 Use the following function definition:
 		```String[]	showDirectFlights(String[] routeInfo, String fromCity)```
-### Task 3:
+
+## Task 3:
 	If you look closely, at the output produced by the function in `showDirectFlights()` you will notice, 
 that the destination cities are appearing in no particular order. Perhaps, that was the sequence in which 
 the user entered the data and hence that was also the way in which it was stored in the `routes[]` array.
@@ -100,7 +100,7 @@ SNo.		From		To		Distance in Kms		Travel Time	Typical Airfare
 2.		Delhi		London		6704			8:55		INR 37000
 3.		Delhi		Mumbai	1148			2:10		INR 6000
 ```
-### Task 4: 
+## Task 4: 
 Given the name of a city and the name of a destination city, analyse the available route information 
 and confirm if the 2 cities are connected by air routes or not. If it is possible to travel between the 2 
 cities by air, show the corresponding route information. Note that there may be direct routes available as 
@@ -125,7 +125,7 @@ String[] showAllConnections(String[] routeInfo, String fromCity, String toCity);
 ```
 
 ### Task 5:
- 	You would have noticed a user-unfriendly issue with the output produced above. It leaves the user to 
+You would have noticed a user-unfriendly issue with the output produced above. It leaves the user to 
 calculate the total flight time for routes that are not direct. Refactor, the function so that for routes 
 with one or more stops, the total flight distance, time, and cost is also shown. 
 The improved output should be as follows:
