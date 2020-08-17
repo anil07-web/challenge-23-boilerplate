@@ -98,7 +98,7 @@ example, the resultant output should be:
 SNo.		From		To		Distance in Kms		Travel Time	Typical Airfare
 1.		Delhi		Frankfurt	6117			8:35		INR 32000
 2.		Delhi		London		6704			8:55		INR 37000
-3.		Delhi		Mumbai	1148			2:10		INR 6000
+3.		Delhi		Mumbai	        1148			2:10		INR 6000
 ```
 ## Task 4: 
 Given the name of a city and the name of a destination city, analyse the available route information 
