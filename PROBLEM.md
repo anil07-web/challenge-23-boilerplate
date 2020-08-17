@@ -53,7 +53,7 @@ refer to the ISO Standard 3 letter currency code here: https://www.xe.com/iso421
  
 At the end of the data entry process, print out the route information in a tabular format as follows:
 
-###Route Information – Some Popular Routes
+### Route Information – Some Popular Routes
 
 ```
 SNo.		From		To		Distance in Kms		Travel Time	Typical Airfare
@@ -72,10 +72,10 @@ Now that you can accept route information from the user and store it in an array
 use this information in helping the users plan their trips. Write independent functions to respond to the 
 following user queries:
 
-	Given the name of a city, show a list of other cities to which it has direct flights. If you do not have 
-    any information about the city mentioned by the user, give an appropriate message. For example:
-    “We are sorry. At this point in time we do not have any information on flights in the specified route”
-    So, for example, if the user has specified “Delhi”, the output shown will be:
+Given the name of a city, show a list of other cities to which it has direct flights. If you do not have 
+any information about the city mentioned by the user, give an appropriate message. For example:
+“We are sorry. At this point in time we do not have any information on flights in the specified route”
+So, for example, if the user has specified “Delhi”, the output shown will be:
 
 ```
 SNo.		From		To		Distance in Kms		Travel Time	Typical Airfare
@@ -88,7 +88,7 @@ Use the following function definition:
 		```String[]	showDirectFlights(String[] routeInfo, String fromCity)```
 
 ## Task 3:
-	If you look closely, at the output produced by the function in `showDirectFlights()` you will notice, 
+If you look closely, at the output produced by the function in `showDirectFlights()` you will notice, 
 that the destination cities are appearing in no particular order. Perhaps, that was the sequence in which 
 the user entered the data and hence that was also the way in which it was stored in the `routes[]` array.
 Refactor the function so that it lists the destination cities in alphabetical order. For the earlier 
